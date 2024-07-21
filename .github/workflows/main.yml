@@ -13,11 +13,11 @@ jobs:
 
       - name: Set Git User Name
         run: |
-          git config --global user.name "Your Name"
+          git config --global user.name "kukuqi666"
 
       - name: Set Git User Email
         run: |
-          git config --global user.email "your.email@example.com"
+          git config --global user.email "1852324916@qq.com"
 
       - name: Show Git Configuration
         run: |
