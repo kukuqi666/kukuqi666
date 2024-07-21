@@ -25,6 +25,6 @@ I'm also interested in machine learning and data science, and I'm working on a p
 ![Redmi k60 pro](https://img.shields.io/badge/Redmi%20k60%20pro-ED9121?style=flat-square&logo=xiaomi&logoColor=ffffff)
 
 
-![snake](https://raw.githubusercontent.com/kukuqi666/My-own-account/output/github-contribution-grid-snake.svg)
+![snake](https://raw.githubusercontent.com/kukuqi666/kukuqi666/output/github-contribution-grid-snake.svg)
 
 ![typograssy](https://typograssy.deno.dev/api?text=Hellow%20World!)
