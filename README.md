@@ -14,7 +14,7 @@ I'm also interested in machine learning and data science, and I'm working on a p
 
 # 💻 Environment
 ![Windows](https://img.shields.io/badge/Windows%2011-00BBFF?style=flat-square&logo=Windows&logoColor=ffffff)
-![Ubuntu](https://img.shields.io/badge/Ubuntu%2022%2e04-dd4814?style=flat-square&logo=ubuntu&logoColor=ffffff)
+![Ubuntu](https://img.shields.io/badge/Ubuntu%2024%2e04-dd4814?style=flat-square&logo=ubuntu&logoColor=ffffff)
 ![KaliLinux](https://img.shields.io/badge/kali_24.02-%23557C94?style=flat-square&logo=kalilinux&logoColor=ffffff)
 
 # 📱 Devices
