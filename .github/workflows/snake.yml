@@ -5,12 +5,15 @@ on:
     - cron: "0 0 * * *"  # Runs daily at midnight
   workflow_dispatch:  # Allows manual trigger
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history so that git pull works
 
       - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
@@ -25,11 +28,12 @@ jobs:
           outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Commit and Push the generated SVGs
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Generate GitHub Contribution Snake"
-          git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Ensure your PAT_TOKEN is correctly set in repository secrets
+        run: |
+          git config --local user.name "GitHub Actions Bot"
+          git config --local user.email "actions@github.com"
+          git add dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
+          git commit -m "Generate GitHub Contribution Snake"
+          git pull --rebase origin main  # Pull and rebase to avoid conflicts
+          git push origin main
