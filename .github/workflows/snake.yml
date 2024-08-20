@@ -1,39 +1,36 @@
-name: Generate Snake
+name: generate animation
 
 on:
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight
-  workflow_dispatch:  # Allows manual trigger
-
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  generate:
+    runs-on: windows-latest
+    timeout-minutes: 10
+
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Fetch all history so that git pull works
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - name: Generate Snake SVG
+      - name: Generate GitHub contribution grid snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: kuqi666
-          outputs: dist/github-contribution-grid-snake.svg
-
-      - name: Generate Snake SVG (Dark Theme)
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: kuqi666
-          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Commit and Push the generated SVGs
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Ensure your PAT_TOKEN is correctly set in repository secrets
-        run: |
-          git config --local user.name "GitHub Actions Bot"
-          git config --local user.email "actions@github.com"
-          git add dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
-          git commit -m "Generate GitHub Contribution Snake"
-          git pull --rebase origin main  # Pull and rebase to avoid conflicts
-          git push origin main
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      - name: Push GitHub contribution grid snake to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output  # Specify the branch where the SVGs will be pushed
+          build_dir: dist  # Specify the directory containing the generated SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
