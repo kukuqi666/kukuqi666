@@ -7,7 +7,7 @@
     <a title="Github Followers" target="_blank" href="https://github.com/kukuqi666">
         <img src="https://img.shields.io/badge/dynamic/json?label=GitHub&suffix=%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dblinkfox&color=blue&logo=github&longCache=true" />
     </a>
-    <a title="My Blog Site" target="_blank" href="https://kukuqi666.github.io/">
+    <a title="My Blog Site" target="_blank" href="https://kukuqi666-github-io.onrender.com">
         <img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-kukuqi666.github.io-orange" />
     </a>
 </p>
@@ -16,9 +16,9 @@
 
 I'm a developer from China, I like to code and learn new things.
 
-I'm currently working on a project called [kukuqi666.github.io](https://kukuqi666.github.io/), which is a personal website where I share my thoughts and experiences.
+I'm currently working on a project called [https://kukuqi666-github-io.netlify.app/](https://kukuqi666-github-io.netlify.app/), which is a personal website where I share my thoughts and experiences.
 
-I'm also interested in machine learning and data science, and I'm working on a project called [kukuqi666.github.io](https://kukuqi666.github.io/), which is a personal website where I share my thoughts and experiences.
+I'm also interested in machine learning and data science, and I'm working on a project called [https://kukuqi666-github-io.onrender.com](https://kukuqi666-github-io.onrender.com), which is a personal website where I share my thoughts and experiences.
 
 ![kukuqi666](https://github-readme-stats.vercel.app/api?username=kukuqi666&show_icons=true&theme=radical&include_all_commits=true)
 ![kukuqi666](https://github-readme-stats.vercel.app/api/top-langs/?username=kukuqi666&layout=compact&theme=radical)
