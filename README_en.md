@@ -18,7 +18,7 @@ I'm a computer enthusiast who loves coding and learning new things.
 I'm currently working on a project called [Doraemon](https://kukuqi.netlify.app/), which is a personal blog where I share my thoughts and experiences.  
 I'm also passionate about cybersecurity and working on a project called [kali-linux](https://kali-linux.netlify.app/), a blog where I share knowledge related to cybersecurity. It's continuously updated, so feel free to check it out!
 
-You can view my [Chinese README](https://github.com/kukuqi666/kukuqi666/blob/main/README_zh.md) for more information.
+You can view my [Chinese README](README.md) for more information.
 
 ![kukuqi666](https://github-readme-stats.vercel.app/api?username=kukuqi666&show_icons=true&theme=radical&include_all_commits=true)
 ![kukuqi666](https://github-readme-stats.vercel.app/api/top-langs/?username=kukuqi666&layout=compact&theme=radical)
