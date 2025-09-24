@@ -1,4 +1,4 @@
-# Hi there 👋 this is kukuqi666
+# 嗨 👋 我是哆啦A梦
 
 <p align="center">
     <a title="Github Total Stars" target="_blank" href="https://github.com/kukuqi666">
@@ -8,29 +8,30 @@
         <img src="https://img.shields.io/badge/dynamic/json?label=GitHub&suffix=%20followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dblinkfox&color=blue&logo=github&longCache=true" />
     </a>
     <a title="My Blog Site" target="_blank" href="https://kukuqi666.github.io">
-        <img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-kukuqi666.github.io-orange" />
+        <img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-哆啦A梦-orange" />
     </a>
 </p>
-
 [![This is me](https://readme-typing-svg.herokuapp.com?size=23&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E7%8E%B0%E5%AE%9E%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%98%AF%E8%AF%AD%E8%A8%80%EF%BC%8C%E8%AF%AD%E8%A8%80%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%98%AF%E7%A8%8B%E5%BA%8F%EF%BC%8C%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%98%AF%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91%EF%BC%8C%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%98%AF%E8%B6%85%E8%B6%8A%E8%AE%A4%E7%9F%A5%E7%9A%84%E7%9C%9F%E7%90%86%E3%80%82)](https://git.io/typing-svg)
 
-I'm a developer from China, I like to code and learn new things.
+我是一名来自计算机爱好者，我喜欢编程和学习新事物。
 
-I'm currently working on a project called [https://kukuqi666-github-io.netlify.app/](https://kukuqi666-github-io.netlify.app/), which is a personal website where I share my thoughts and experiences.
+我目前正在进行一个名为[哆啦A梦]( https://kukuqi.netlify.app/) 的项目，这是一个个人博客，我在这里分享我的想法和经验。
 
-I'm also interested in machine learning and data science, and I'm working on a project called [https://kukuqi666-github-io.onrender.com](https://kukuqi666-github-io.onrender.com), which is a personal website where I share my thoughts and experiences.
+我还对网络安全感兴趣，我正在从事一个名为 的项目[kali-linux](https://kali-linux.netlify.app/)，这是一个的分享网络安全的相关知识的博客，感兴趣的可以过来看看，持续更新中！！！
+
+您可以查看我的 [英文版 README](https://github.com/kukuqi666/kukuqi666/blob/main/README_en.md) 以获取更多信息。
 
 ![kukuqi666](https://github-readme-stats.vercel.app/api?username=kukuqi666&show_icons=true&theme=radical&include_all_commits=true)
 ![kukuqi666](https://github-readme-stats.vercel.app/api/top-langs/?username=kukuqi666&layout=compact&theme=radical)
 
 
-### 🏆 Profile Trophy
+### 🏆 个人成就
 
 <p align="center">
     <img src="https://github-profile-trophy.vercel.app/?username=blinkfox&title=Stars,Followers,MultiLanguage,Commits,Issues&margin-w=15&margin-h=15" alt="blinkfox" />
 </p>
 
-### 🔨 Skills and Tools
+### 🔨 技能与工具
 
 <div align="center">
     <a href="https://www.java.com" target="_blank" rel="noreferrer">
@@ -116,15 +117,15 @@ I'm also interested in machine learning and data science, and I'm working on a p
     </a>
 </div>
 
-# Visitors
+### 👀 访客统计
 ![](https://count.getloli.com/get/@kukuqi666?theme=gelbooru)
 
-# 💻 Environment
+### 💻 开发环境
 ![Windows](https://img.shields.io/badge/Windows%2011-00BBFF?style=flat-square&logo=Windows&logoColor=ffffff)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu%2024%2e04-dd4814?style=flat-square&logo=ubuntu&logoColor=ffffff)
 ![KaliLinux](https://img.shields.io/badge/kali_24.02-%23557C94?style=flat-square&logo=kalilinux&logoColor=ffffff)
 
-# 📱 Devices
+### 📱 设备
 ![Xiaomi 6](https://img.shields.io/badge/Xiaomi%206-ED9121?style=flat-square&logo=xiaomi&logoColor=ffffff)
 ![OnePlus 7 Pro](https://img.shields.io/badge/OnePlus%207%20Pro-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
 ![OnePlus 5T](https://img.shields.io/badge/OnePlus%205T-f5010c?style=flat-square&logo=oneplus&logoColor=ffffff)
