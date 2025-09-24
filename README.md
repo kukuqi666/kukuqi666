@@ -20,7 +20,7 @@
 
 我还对网络安全感兴趣，我正在从事一个名为 的项目[kali-linux](https://kali-linux.netlify.app/)，这是一个的分享网络安全的相关知识的博客，感兴趣的可以过来看看，持续更新中！！！
 
-您可以查看我的 [英文版 README](https://github.com/kukuqi666/kukuqi666/blob/main/README_en.md) 以获取更多信息。
+您可以查看我的 [英文版 README](README_en.md) 以获取更多信息。
 
 ![kukuqi666](https://github-readme-stats.vercel.app/api?username=kukuqi666&show_icons=true&theme=radical&include_all_commits=true)
 ![kukuqi666](https://github-readme-stats.vercel.app/api/top-langs/?username=kukuqi666&layout=compact&theme=radical)
